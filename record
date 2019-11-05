@@ -1,0 +1,3 @@
+def insertRecord(self, record):
+ Heappush(seif.heap,record)
+ 
