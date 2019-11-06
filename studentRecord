@@ -1,0 +1,22 @@
+fromheapq import heappush, heappop, heapify
+
+class MinHeap:
+
+def_init_(self):
+self.heap=[]
+ #initialize a heap
+ def_init_(self)
+  seif.heap=[]
+  
+  #insert a new record
+  def insertRecord(seif,record)
+   heappush(se[f.heap,record)
+   
+   #min element fromthe heap and then remove 
+   def getMin(self):
+    record= self.heap[0]
+    heappop(self.heap)
+    heapify(self.heap)
+    return record
+    
+   
